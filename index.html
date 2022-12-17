@@ -8,6 +8,26 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <div class="overlay-menu" id="overlay-menu" ></div>
+  <header class="header">
+    <div class="header-logo"><img src="./media/Logo.png" alt=""></div>
+    <div class="header-menu">
+      <div class="menu-icon" id="menuBtn">
+        <img src="./media/icon-menu.svg" alt="">
+      </div>
+      <ul class="menu-list" id="menu-list">
+        <div class="btn-close" id="btn-close">x</div>
+        <li class="menu-list__item">Giới thiệu</li>
+        <li class="menu-list__item">CHIẾN LƯỢC</li>
+        <li class="menu-list__item">GIAI ĐOẠN PHÁT TRIỂN</li>
+        <li class="menu-list__item">DỰ ÁN</li>
+        <li class="menu-list__item">TIN TỨC</li>
+        <li class="menu-list__item">TUYỂN DỤNG</li>
+        <li class="menu-list__item">Thư Viện</li>
+        <li class="menu-list__item">Liên Hệ</li>
+      </ul>
+    </div>
+  </header>
   <div class="home_wrap">
     <div class="home__banner">
       <div class="home__banner-video">
@@ -63,38 +83,191 @@
     <section class="home-section" >
       <div class="section__title">
         <h2 class="section__title-text">
-          các giai đoạn phát triển
+          lĩnh vực hoạt động
         </h2>
       </div>
       <div class="section__content">
         <div class="section__content-card">
-          <div class="card-image">
+          <div class="card-image overlay">
             <img src="./media/anh2.1.png" alt="">
-            <div class="btn__detail"><a class="btn__detail-link" href="">Chi tiết</a></div>
+            <a href="" class="btn btn-4">ĐẦU TƯ <br><span>BẤT ĐỘNG SẢN</span> </a> 
+
           </div>
         </div>
         <div class="section__content-card">
           <div class="card-image overlay">
             <img src="./media/anh2.2.png" alt="">
-            <div class="btn__detail"><a class="btn__detail-link" href="">Chi tiết</a></div>
+            <a href="" class="btn btn-4">KHAI THÁC &  <br><span>VẬN HÀNH TÀI SẢN</span> </a> 
+
           </div>
         </div>
         <div class="section__content-card">
-          <div class="card-image">
+          <div class="card-image overlay">
             <img src="./media/anh2.3.png" alt="">
-            <div class="btn__detail"><a class="btn__detail-link" href="">Chi tiết</a></div>
+            <a href="" class="btn btn-4">THIẾT KẾ &<br><span>VẬN HÀNH TÀI SẢN</span> </a> 
+
           </div>
         </div>
         <div class="section__content-card">
-          <div class="card-image">
+          <div class="card-image overlay">
             <img src="./media/anh2.4.png" alt="">
-            <a href="https://twitter.com/Dave_Conner" class="btn btn-4">Hover</a> 
-            <div class="btn__detail"><a class="btn__detail-link" href="">Chi tiết</a></div>
+            <a href="" class="btn btn-4">DỊCH VỤ  <br><span>TƯ VẤN ĐẦU TƯ</span> </a> 
           </div>
         </div>
       </div>
     </section>
+    <section class="home-section" >
+      <div class="section__title">
+        <h2 class="section__title-text">
+          hệ SINH THÁI RICh INVEST
+        </h2>
+      </div>
+      <div class="section__content">
+        <div class="section__content-left">
+          <div class="content__count">
+            <div class="content__count-item">
+              <div class="number">1000+</div>
+              <div class="text">sản phẩm bán ra</div>
+            </div>
+          </div>
+          <div class="content-partner">
+
+          </div>
+        </div>
+        <div class="section__content-right"></div>
+      </div>
+    </section>
   </div>
+  <footer class="footer">
+    <div class="footer__row">
+      <div class="footer__row-left">
+        <div class="footer-logo">
+          <img src="./media/logo-white.png" alt="">
+        </div>
+        <div class="footer-social">
+          <div class="footer-social__title">Follow Us</div>
+          <div class="footer-social__icon">
+            <div class="icon"><img src="./media/fb-icon.png" alt=""></div>
+            <div class="icon"><img src="./media/yt-icon.png" alt=""></div>
+            <div class="icon"><img src="./media/link-icon.png" alt=""></div>
+            <div class="icon"><img src="./media/insta-icon.png" alt=""></div>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <div class="contact-title">Liên hệ</div>
+          <div class="contact-item">
+            <div class="item-icon"><img src="./media/icon-call.png" alt=""></div>
+            <div class="item-text">1900.99.99.79</div>
+          </div>
+          <div class="contact-item">
+            <div class="item-icon"><img src="./media/icon-mail.png" alt=""></div>
+            <div class="item-text">info@richinvest.vn</div>
+          </div>
+          <div class="contact-item">
+            <div class="item-icon"><img src="./media/icon-location.png" alt=""></div>
+            <div class="item-text">Phòng 4011, Tòa C5 D'Capitale, Số 119 <br>
+              Trần Duy Hưng, P. Trung Hòa, Q. Cầu Giấy, Hà Nội.</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__row-right">
+        <div class="footer-item">
+          <div class="item-title">Giới thiệu
+          </div>
+          <div class="item-list">
+            <ul class="menu-footer">
+              <li class="menu-footer__item">Giới thiệu</li>
+              <li class="menu-footer__item">đội ngũ sáng lập</li>
+              <li class="menu-footer__item">Văn hóa doanh nghiệp</li>
+              <li class="menu-footer__item">HỆ SINH THÁI RICH INVES</li>
+              <li class="menu-footer__item">lĩnh vực hoạt động</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-item">
+          <div class="item-title">Giới thiệu
+          </div>
+          <div class="item-list">
+            <ul class="menu-footer">
+              <li class="menu-footer__item">Giới thiệu</li>
+              <li class="menu-footer__item">đội ngũ sáng lập</li>
+              <li class="menu-footer__item">Văn hóa doanh nghiệp</li>
+              <li class="menu-footer__item">HỆ SINH THÁI RICH INVES</li>
+              <li class="menu-footer__item">lĩnh vực hoạt động</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-item">
+          <div class="item-title">Giới thiệu
+          </div>
+          <div class="item-list">
+            <ul class="menu-footer">
+              <li class="menu-footer__item">Giới thiệu</li>
+              <li class="menu-footer__item">đội ngũ sáng lập</li>
+              <li class="menu-footer__item">Văn hóa doanh nghiệp</li>
+              <li class="menu-footer__item">HỆ SINH THÁI RICH INVES</li>
+              <li class="menu-footer__item">lĩnh vực hoạt động</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-item">
+          <div class="item-title">Giới thiệu
+          </div>
+          <div class="item-list">
+            <ul class="menu-footer">
+              <li class="menu-footer__item">Giới thiệu</li>
+              <li class="menu-footer__item">đội ngũ sáng lập</li>
+              <li class="menu-footer__item">Văn hóa doanh nghiệp</li>
+              <li class="menu-footer__item">HỆ SINH THÁI RICH INVES</li>
+              <li class="menu-footer__item">lĩnh vực hoạt động</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-item">
+          <div class="item-title">Giới thiệu
+          </div>
+          <div class="item-list">
+            <ul class="menu-footer">
+              <li class="menu-footer__item">Giới thiệu</li>
+              <li class="menu-footer__item">đội ngũ sáng lập</li>
+              <li class="menu-footer__item">Văn hóa doanh nghiệp</li>
+              <li class="menu-footer__item">HỆ SINH THÁI RICH INVES</li>
+              <li class="menu-footer__item">lĩnh vực hoạt động</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-item">
+          <div class="item-title">Giới thiệu
+          </div>
+          <div class="item-list">
+            <ul class="menu-footer">
+              <li class="menu-footer__item">Giới thiệu</li>
+              <li class="menu-footer__item">đội ngũ sáng lập</li>
+              <li class="menu-footer__item">Văn hóa doanh nghiệp</li>
+              <li class="menu-footer__item">HỆ SINH THÁI RICH INVES</li>
+              <li class="menu-footer__item">lĩnh vực hoạt động</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-item">
+          <div class="item-title">Giới thiệu
+          </div>
+          <div class="item-list">
+            <ul class="menu-footer">
+              <li class="menu-footer__item">Giới thiệu</li>
+              <li class="menu-footer__item">đội ngũ sáng lập</li>
+              <li class="menu-footer__item">Văn hóa doanh nghiệp</li>
+              <li class="menu-footer__item">HỆ SINH THÁI RICH INVES</li>
+              <li class="menu-footer__item">lĩnh vực hoạt động</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <div class="footer__copyright-text"><span>© 2021 Rich INVEST. Bảo lưu mọi quyền.</span></div>
+    </div>
+  </footer>
 </body>
 <script src="./main.js"></script>
 </html>
